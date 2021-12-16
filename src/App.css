@@ -6,7 +6,7 @@
 .main_container{
   border: 1px solid black;
   background: linear-gradient(229deg, #33c39e, #4345bb, #e84c3b, #e8c63b);
-  background-size: 800% 800%;
+  background-size: 100% 100%;
   -webkit-animation: AnimationName 29s ease infinite;
   -moz-animation: AnimationName 29s ease infinite;
   animation: AnimationName 29s ease infinite;
@@ -14,7 +14,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 480px;
+  height: 100vh;
   min-width: 300px;
 }
 @-webkit-keyframes AnimationName {
