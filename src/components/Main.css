@@ -5,7 +5,7 @@
 .secondary_div{
     display: flex;
     flex-direction: column;
-    height: 58%;
+    height: 60%;
     width: 60%;
     margin: 50px;
     }
@@ -43,7 +43,7 @@
         padding: 20px;
         
     }
-    @media screen and (max-width: 700px){
+    @media screen and (max-width: 700px) and (min-width: 500px){
       .secondary_div{
         width: 70%;
       }
@@ -72,7 +72,7 @@
             background-color: white;
             height: 20%;
             border-radius: 20px 20px 0px 0px;
-            font-size: 30px;
+            font-size: 60px;
         }
         
         .div2{
@@ -83,8 +83,8 @@
             justify-content: space-between;
         }
         .div3{
-            display: flex;
-            flex-wrap: wrap;
+          display: grid;
+            grid-template-columns: repeat(2, minmax(80px, 80px));
             background-color: white;
             height: 40%;
             border-radius: 0px 0px 20px 20px;
@@ -92,7 +92,7 @@
         }
         .icon{
           color: black;
-          margin: 15px;
+          margin: 10px;
         }
         .two-sided-section {
           height: 70px;

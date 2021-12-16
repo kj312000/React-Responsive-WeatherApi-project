@@ -17,6 +17,13 @@
   height: 100vh;
   min-width: 300px;
 }
+
+@media screen and (max-width:500px) {
+  .main_container{
+    height: 120vh;
+  }
+}
+
 @-webkit-keyframes AnimationName {
   0%{background-position:0% 88%}
   50%{background-position:100% 13%}

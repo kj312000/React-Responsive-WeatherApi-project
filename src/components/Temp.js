@@ -37,12 +37,9 @@ function Temp() {
 
   useEffect(() => {
     getWeatherInfo();
-    
-  });
+  },[]);
 
   
-  
-
     return (
         <div className="main_container">
             <div className="wrap">
@@ -60,7 +57,8 @@ function Temp() {
                 <button
                     className="searchButton"
                     type="button"
-                    onClick={getWeatherInfo}>
+                    onClick={getWeatherInfo}
+                    >
                     Search
                 </button>
                 </div>
