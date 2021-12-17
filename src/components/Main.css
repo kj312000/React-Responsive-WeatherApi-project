@@ -5,9 +5,9 @@
 .secondary_div{
     display: flex;
     flex-direction: column;
-    height: 60%;
+    height: 60vh;
     width: 60%;
-    margin: 50px;
+    margin: 30px;
     }
     .div1{
         background-color: white;
@@ -64,7 +64,6 @@
         margin: 10px;
       }
     }
-
     
     @media screen and (max-width: 500px) {
         .secondary_div{
@@ -73,14 +72,14 @@
             background-color: aqua;
             height: 80%;
             width: 80%;
-            margin: 30px;
+            margin-bottom: 40%;
             border-radius: 20px;
             }
         .div1{
             background-color: white;
             height: 20%;
             border-radius: 20px 20px 0px 0px;
-            font-size: 60px;
+            font-size: 30px;
             text-align: center;
         }
         
@@ -89,14 +88,14 @@
             height: 40%;
             flex-direction: column;
             margin: 2px;
-            justify-content: space-between;
+            padding: 10px;
         }
         .div3{
           display: grid;
             grid-template-columns: repeat(2, minmax(80px, 80px));
             background-color: white;
-            height: 40%;
-            border-radius: 0px 0px 20px 20px;
+            height:50%;
+            padding: 2px;
             
         }
         .icon{

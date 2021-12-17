@@ -1,9 +1,14 @@
 
 .search {
     width: 100%;
-    position: relative;
     display: flex;
     justify-content: center;
+    margin-top: 20%;
+  }
+  @media screen and (max-width:500px) and (min-width:400px) {
+    .search{
+      margin-top: 30%;
+    }
   }
   
   .searchTerm {
